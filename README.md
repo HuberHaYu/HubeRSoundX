@@ -49,6 +49,9 @@ public static float[] Default = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 Mbc多频段压缩同样经过HxCore算法进行了传参优化：
 ```java
 /* HXCORE LIMITER */
+public static float[] JBL_PartyBox_Mbc = {6, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0};
+public static float[] N12T_Origin_Mbc = {1, 8, 7, 7, 10, 0, 10, -6, 6, 0, 4};
+
 private static final float LIMITER_DEFAULT_ATTACK_TIME = 1;
 private static final float LIMITER_DEFAULT_RELEASE_TIME = 60;
 private static final float LIMITER_DEFAULT_RATIO = 10;
