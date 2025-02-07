@@ -2,14 +2,14 @@
 无需任何高级权限的强力音频处理App<br>
 兼容Android 12及以上系统<br>
 具体发布时间详见 BiliBili（同名）
-## 认识并了解 HubeRSoundX
-HubeRSoundX理论上是全局音频处理，但如下场景可能无效：<br>
+## 认识并了解 HubeRSoundX (以下简称HSX)
+HSX理论上是全局音频处理，但如下场景可能无效：<br>
 1. 通话<br>
 2. 带有Offload且低延迟模式的游戏，如部分音游或MOBA类<br>
 3. 开启了AAudio的低延迟的音乐播放器或游戏类App<br><br>
-**HubeRSoundX(5.1)内置了独创HxCore曲线算法，同时借助Android DynamicsProcessing API，在可调的10段均衡器基础上同时进行二次音频渲染，能够尽可能地发挥硬件极限<br><br>
-不同于Wavelet和Poweramp，此工具将通过多个Eq曲线，大幅度推动扬声器、耳机、音箱的低频动态范围。<br><br>**
-HubeRSoundX支持多频段前级脉冲，能够在音频进入后级均衡器渲染前，进行一次音频 * **预渲染** * ，模拟各个设备的最优频响优化，甚至模拟环绕声、监听频响曲线
+**HSX(5.1)内置了独创HxCore曲线算法，同时借助Android DynamicsProcessing API，在可调的10段均衡器基础上同时进行二次音频渲染，能够尽可能地发挥硬件极限<br><br>
+不同于Wavelet和Poweramp，HSX将通过多个Eq曲线，大幅度推动扬声器、耳机、音箱的低频动态范围。<br><br>**
+HSX支持多频段前级脉冲，能够在音频进入后级均衡器渲染前，进行一次音频 * **预渲染** * ，模拟各个设备的最优频响优化，甚至模拟环绕声、监听频响曲线
 ## 关于算法 - HxCore
 HxCore是在DynamicsProcessing API的基础上进行Eq和频响曲线计算，同时借助多声道逻辑计算每个声道独立的Eq，模拟不同的声音相位等<br><br>
 如下是示例（前级预渲染）：
