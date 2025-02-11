@@ -1,7 +1,8 @@
 # HubeRSoundX
 无需任何高级权限的强力音频处理App<br>
 兼容Android 12及以上系统<br>
-具体发布时间详见 BiliBili（同名）
+具体发布时间详见 BiliBili（同名）<br>
+YouTube将在两个月内同步发布，详见 youtube.com/@ameikarewa2116
 ## 认识并了解 HubeRSoundX (以下简称HSX)
 HSX理论上是全局音频处理，但如下场景可能无效：<br>
 1. 通话<br>
